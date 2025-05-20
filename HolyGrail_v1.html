@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+
+    
+    #container {
+	display: grid;
+	grid-template-areas:
+	    "topbar topbar topbar"
+	    "sidebar content ads"
+	    "footer footer footer";
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-rows:25% auto 10%;
+	
+	
+	grid-auto-rows: minmax(50px,auto);
+	
+    }
+
+    header {grid-area: topbar;
+	    background-color:gray;
+	    padding:5%;
+      h1:500%;}
+    aside {grid-area: ads;
+	   background-color:#ffff66;
+	  padding:5%;}
+     main {grid-area: content;
+	   background-color: lightgray;
+	   padding:5%;}
+     nav {grid-area:sidebar;
+	  background-color:aquamarine;
+	  padding:5%;}
+     footer {grid-area:footer;
+	     background-color:sandybrown;
+	     padding:5%;}
+     section {margin-bottom: 5em;}
+     section > p {font-size:200%;}
+	 
+  </style>
+  <script>
+ 
+  </script>
+
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1></h1>
+      
+
+  
+  </header>
+
+<main>
+  <section>
+<p></p>
+
+</section>
+
+
+
+</main>
+
+
+<nav>
+  <h2>Links</h2>
+  <ul>
+   
+    
+  </nav>
+
+  <aside>
+    <p>Hier könnte ihre Werbung stehen!</p>
+  </aside>
+  
+
+  <footer>
+    <p>Für den Inhalt verantwortlich: H.-P. Ostertag</p>
+  </footer>
+
+  </div>
+
+</body>
+
+</html>
